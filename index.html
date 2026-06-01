@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./Imag e Icon/First-aid_35560.png" type="image/x-icon">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bowlby+One&family=Rubik+Storm&display=swap" rel="stylesheet">
     <title>Mi proyecto Web</title>
 </head>
 <body>
     
      <header>
-        <h1>Asistentes de Primeros Auxilios</h1>
-        <img src="Imag e Icon/80c6411cae08ebf26876e5538d8d31bc~2.jpg" alt="Emergency" width="390"><br><br><br><br>
-        <p>Menu:</p>
+        <div class="logo">Asistentes de Primeros Auxilios</div>
+        <label for="menu" class="menu-icon">ⲷ</label>
+        <input type="checkbox" id="menu" class="menu" />
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -22,33 +26,35 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
+        
     </header>
+    <img class="imagen" src="Imag e Icon/80c6411cae08ebf26876e5538d8d31bc~2.jpg" alt="Emergency" width="390">
     <main>
         <article id="inicio">
-        <h2>Primeros Auxilios</h2>
-        <p>Atención inmediata, temporal y básica brindada a una persona accidentada o enferma antes de la llegada de ayuda médica profesional. Sus objetivos principales son preservar la vida, evitar mayores complicaciones, aliviar el dolor y favorecer la recuperación.
+        <h2 class="inicio">Primeros Auxilios</h2>
+        <p class="texto">Atención inmediata, temporal y básica brindada a una persona accidentada o enferma antes de la llegada de ayuda médica profesional. Sus objetivos principales son preservar la vida, evitar mayores complicaciones, aliviar el dolor y favorecer la recuperación.
            El protocolo clave es PAS: Proteger, Avisar y Socorrer.</p>
         </article>
-        <aside>
-            <h3>Principios Básicos: El protocolo PAS</h3>
-                <p>Proteger (Escena): Asegurar el lugar para evitar que el rescatista o la víctima sufran nuevos daños.</p>
-                <p>Avisar (Emergencias): Llamar al número de emergencias local (ej. 112, 911) dando información clara y precisa.</p>
-                <p>Socorrer (Víctima): Evaluar al paciente (consciencia y respiración) y aplicar las maniobras necesarias sin moverlo si se sospecha lesión medular.</p>
+        <aside><br>
+            <h3 class="principios">Principios Básicos: El protocolo PAS</h3>
+                <p class="texto2">Proteger (Escena): Asegurar el lugar para evitar que el rescatista o la víctima sufran nuevos daños.</p>
+                <p class="texto3">Avisar (Emergencias): Llamar al número de emergencias local (ej. 112, 911) dando información clara y precisa.</p>
+                <p class="texto4">Socorrer (Víctima): Evaluar al paciente (consciencia y respiración) y aplicar las maniobras necesarias sin moverlo si se sospecha lesión medular.</p>
         </aside><br><br>
          <section id="guia">
-            <h2>Guía de Primeros Auxilios</h2>
-            <p>1. Evaluar la situación y garantizar la seguridad.</p>
-               <p>2. Verificar la conciencia de la persona.</p>
-               <p>3. Llamar a emergencias si es necesario.</p>
-               <p>4. Proporcionar primeros auxilios básicos según la situación.</p>
+            <h2 class="guia">Guía de Primeros Auxilios</h2>
+            <p class="texto5">1. Evaluar la situación y garantizar la seguridad.</p>
+               <p class="texto6">2. Verificar la conciencia de la persona.</p>
+               <p class="texto7">3. Llamar a emergencias si es necesario.</p>
+               <p class="texto8">4. Proporcionar primeros auxilios básicos según la situación.</p>
         </section><br><br>
         <section id="tipos de emergencias">
-            <h2>Tipos de Emergencias Comunes</h2>
-            <p>Parada Cardiorrespiratoria (PCR): Interrupción súbita de respiración y circulación.</p>
-            <p>Hemorragias: Pérdida de sangre.</p>
-            <p>Atragantamiento/Asfixia: Obstrucción de la vía aérea.</p>
-            <p>Quemaduras: Daños en piel por calor, electricidad o químicos.</p>
-        </section>
+            <h2 class="tipos">Tipos de Emergencias Comunes</h2>
+            <p class="texto9">Parada Cardiorrespiratoria (PCR): Interrupción súbita de respiración y circulación.</p>
+            <p class="texto10">Hemorragias: Pérdida de sangre.</p>
+            <p class="texto11">Atragantamiento/Asfixia: Obstrucción de la vía aérea.</p>
+            <p class="texto12">Quemaduras: Daños en piel por calor, electricidad o químicos.</p>
+        </section><br>
         
             <iframe width="901" height="507" src="https://www.youtube.com/embed/KqmVpJRR3ao" 
                 title="Ambulancia EMS Life Care Chile- Móvil 101 respondiendo" 
@@ -58,14 +64,14 @@
                 allowfullscreen>
             </iframe>
            <section id="tecnicas esenciales">
-            <h3>Técnicas Esenciales</h3>
-                <p>RCP (Reanimación Cardiopulmonar): Compresiones torácicas y ventilaciones si no hay pulso ni respiración.</p>
-                <p>Maniobra de Heimlich: Para atragantamientos, presionando el abdomen para expulsar objetos.</p>
-                <p>Hemorragias: Presión directa sobre la herida con paños limpios y elevación del miembro afectado.</p>
-                <p>Quemaduras: Refrescar la zona con agua fresca por varios minutos.</p>
+            <h3 class="tecnicas">Técnicas Esenciales</h3>
+                <p class="texto13">RCP (Reanimación Cardiopulmonar): Compresiones torácicas y ventilaciones si no hay pulso ni respiración.</p>
+                <p class="texto14">Maniobra de Heimlich: Para atragantamientos, presionando el abdomen para expulsar objetos.</p>
+                <p class="texto15">Hemorragias: Presión directa sobre la herida con paños limpios y elevación del miembro afectado.</p>
+                <p class="texto16">Quemaduras: Refrescar la zona con agua fresca por varios minutos.</p>
             </section>
         <section id="estadisticas">
-            <h2>Estadisticas sobre Incidentes</h2>
+            <h2 class="estadisticas">Estadisticas sobre Incidentes</h2>
             <table border="1">
                 <tr>
                     <th>Paro Cardiaco</th>
@@ -87,16 +93,25 @@
                 </tr>
             </table>
             <section id="contacto">
-            <h2>Contacto</h2>
+            <h2 class="contacto">Contacto</h2>
             <form action="">
-                <label>Nombre:</label><br>
+                <label class="texto17">Nombre:</label><br>
                 <input type="text" required><br>
-                <label>Email:</label><br>
+                <label class="texto18">Email:</label><br>
                 <input type="email" required><br>
                 <label>Mensaje:</label><br>
                 <textarea name="mensaje" rows="4" cols="15" placeholder="Deje su Mensaje.."></textarea><br>
-                <input type="submit" value="Enviar">
+                <button type="submit" class="boton boton-primario">Enviar</button>
             </form>
+        </section>
+        <section class="botones-demo">
+            <h2>Tipo de Emergencia</h2>
+            <div class="contenedor-botones">
+                <button class="boton boton-primario">Parada Cardiorrespiratoria</button>
+                <button class="boton boton-secundario">Hemorragias</button>
+                <button class="boton boton-exito">Atragantamiento/Asfixia</button>
+                <button class="boton boton-peligro">Quemaduras</button>
+            </div>
         </section>
         
     </main>
